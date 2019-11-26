@@ -1,0 +1,11 @@
+# {{PROJECT_NAME}}
+
+[![Build Status](https://github.com/{{GITHUB_USERNAME}}/{{GITHUB_REPO_NAME}}/workflows/ci.yml/badge.svg?branch=master)](https://github.com/{{GITHUB_USERNAME}}/{{GITHUB_REPO_NAME}}/actions)
+
+{{PROJECT_NAME}
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
+
+Copyright &copy; {{COPYRIGHT_YEAR}} {{USER_FULL_NAME}}. All rights reserved.
