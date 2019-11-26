@@ -54,6 +54,9 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
+  "nyc": {
+    "reporter": ["lcov"]
+  },
   "oclif": {
     "commands": "./lib/commands",
     "bin": "template",
