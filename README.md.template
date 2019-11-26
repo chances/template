@@ -1,6 +1,6 @@
 # {{PROJECT_NAME}}
 
-[![Build Status](https://github.com/{{GITHUB_USERNAME}}/{{GITHUB_REPO_NAME}}/workflows/ci.yml/badge.svg?branch=master)](https://github.com/{{GITHUB_USERNAME}}/{{GITHUB_REPO_NAME}}/actions)
+[![Build Status](https://github.com/{{GITHUB_USERNAME}}/{{GITHUB_REPO_NAME}}/workflows/.github/workflows/ci.yml/badge.svg?branch=master)](https://github.com/{{GITHUB_USERNAME}}/{{GITHUB_REPO_NAME}}/actions)
 
 {{PROJECT_NAME}
 

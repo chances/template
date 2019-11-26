@@ -6,6 +6,7 @@ Bootstrap new GitHub projects
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/@template-cli/template.svg)](https://npmjs.org/package/@template-cli/template)
+[![Build Status](https://github.com/chances/template/workflows/.github/workflows/ci.yml/badge.svg?branch=master)](https://github.com/chances/template/actions)
 [![Codecov](https://codecov.io/gh/chances/template/branch/master/graph/badge.svg)](https://codecov.io/gh/chances/template)
 [![Downloads/week](https://img.shields.io/npm/dw/@template-cli/template.svg)](https://npmjs.org/package/@template-cli/template)
 [![License](https://img.shields.io/npm/l/@template-cli/template.svg)](https://github.com/chances/template/blob/master/LICENSE)
