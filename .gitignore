@@ -1,5 +1,7 @@
 # TODO: Call to the GitHub gitignore repo to get a git ignore for the generated template
 
+/template-template-*.tgz
+
 *-debug.log
 *-error.log
 /.nyc_output

@@ -2,24 +2,27 @@
 
 Bootstrap new GitHub projects
 
+### **This is unfinished software. Use at your own risk!**
+
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/template.svg)](https://npmjs.org/package/template)
+[![Version](https://img.shields.io/npm/v/@template-cli/template.svg)](https://npmjs.org/package/@template-cli/template)
 [![Codecov](https://codecov.io/gh/chances/template/branch/master/graph/badge.svg)](https://codecov.io/gh/chances/template)
-[![Downloads/week](https://img.shields.io/npm/dw/template.svg)](https://npmjs.org/package/template)
-[![License](https://img.shields.io/npm/l/template.svg)](https://github.com/chances/template/blob/master/package.json)
+[![Downloads/week](https://img.shields.io/npm/dw/@template-cli/template.svg)](https://npmjs.org/package/@template-cli/template)
+[![License](https://img.shields.io/npm/l/@template-cli/template.svg)](https://github.com/chances/template/blob/master/LICENSE)
 
 <!-- toc -->
+* [Template](#template)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g template
+$ npm install -g @template-cli/template
 $ template COMMAND
 running command...
 $ template (-v|--version|version)
-template/0.1.0 darwin-x64 node-v12.8.1
+@template-cli/template/0.1.1 darwin-x64 node-v12.8.1
 $ template --help [COMMAND]
 USAGE
   $ template COMMAND
@@ -49,7 +52,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/chances/template/blob/v0.1.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/chances/template/blob/v0.1.1/src/commands/hello.ts)_
 
 ## `template help [COMMAND]`
 
