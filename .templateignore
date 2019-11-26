@@ -1,9 +1,15 @@
+.nyc_output/
 bin/
+coverage/
+node_modules/
 src/
 test/
 .eslintignore
 .eslintrc
+.gitignore
+LICENSE
 package-lock.json
 package.json
 README.md
+template-cli-template-*.tgz
 tsconfig.json
