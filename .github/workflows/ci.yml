@@ -1,4 +1,4 @@
-name: {{PROJECT_NAME}} CI
+name: Template CLI CI
 
 on: push
 #   schedule:
@@ -21,21 +21,11 @@ jobs:
     - name: Test
       if: success()
       run: |
-        make test-ci
+        npm test
       env:
         CI: true
-    - name: Build Site
-      if: success() && github.ref == 'refs/heads/master'
-      run: |
-        make
-      env:
-        CI: true
-        NODE_ENV: production
-    - name: Publish on Netlify
-      if: success() && github.ref == 'refs/heads/master'
-      run: |
-        npx netlify deploy --prod --dir $NETLIFY_DIR --auth $NETLIFY_AUTH_TOKEN --site $NETLIFY_SITE_ID
-      env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        NETLIFY_DIR: public
+    - name: Publish Coverage
+      uses: codecov/codecov-action@v1
+      if: success()
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
